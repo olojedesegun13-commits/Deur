@@ -1,0 +1,6 @@
+{
+  "name": "Deur",
+  "description": "A safety-first, verified gig and professional services marketplace in Nigeria, featuring escrow payments, dynamic matching, and a comprehensive trust & safety framework.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

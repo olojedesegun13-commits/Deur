@@ -1,0 +1,398 @@
+{
+  "users": [
+    {
+      "id": "admin_user",
+      "email": "admin@deur.ng",
+      "name": "Deur Safety Admin",
+      "userType": "admin",
+      "phoneMasked": "+234 812 *** **01",
+      "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=200",
+      "bio": "Lead Trust and Safety Operations Officer at Deur.ng",
+      "location": "Ikeja, Lagos",
+      "isVerified": true,
+      "verificationBadge": true,
+      "subscription": null,
+      "ratingsAverage": 5.0,
+      "completedGigsCount": 120,
+      "responseTime": "Instant"
+    },
+    {
+      "id": "client_demo",
+      "email": "funto@deur.ng",
+      "name": "Funto Alade",
+      "userType": "client",
+      "phoneMasked": "+234 803 *** **88",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200",
+      "bio": "Executive Director at Alade Events. We organize premium corporate retreats, weddings, and product launches.",
+      "location": "Lekki Phase 1, Lagos",
+      "isVerified": true,
+      "verificationBadge": true,
+      "subscription": {
+        "tier": "premium",
+        "startDate": "2026-05-01",
+        "expiryDate": "2026-07-01",
+        "status": "active",
+        "hasPromo": true,
+        "paidOnboardingFee": false,
+        "billingCycle": "monthly",
+        "cost": 5000
+      },
+      "ratingsAverage": 4.8,
+      "completedGigsCount": 14,
+      "responseTime": "Within 2 hours"
+    },
+    {
+      "id": "prov_chioma",
+      "email": "chioma@deur.ng",
+      "name": "Chioma Nnaji",
+      "userType": "provider_individual",
+      "phoneMasked": "+234 703 *** **12",
+      "avatarUrl": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?q=80&w=200",
+      "bio": "Professional MC, Event Hostess, and Corporate Spokesperson. Dynamic crowd engager with over 5 years of event experience in Lagos and Abuja.",
+      "location": "Surulere, Lagos",
+      "isVerified": true,
+      "verificationBadge": true,
+      "category": "Event Staffing",
+      "subcategory": "MC/Host",
+      "skills": ["Crowd Management", "Public Speaking", "Corporate Hosting", "Pidgin Fluency"],
+      "portfolio": [
+        {
+          "id": "port_ch1",
+          "imageUrl": "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=400",
+          "title": "Corporate Gala Hosting",
+          "description": "Hosted the annual tech summit in Victoria Island",
+          "watermarked": true
+        },
+        {
+          "id": "port_ch2",
+          "imageUrl": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=400",
+          "title": "Wedding Master of Ceremonies",
+          "description": "Premium 500-guest wedding reception",
+          "watermarked": true
+        }
+      ],
+      "subscription": {
+        "tier": "premium",
+        "startDate": "2026-06-01",
+        "expiryDate": "2026-07-01",
+        "status": "active",
+        "hasPromo": false,
+        "paidOnboardingFee": true,
+        "billingCycle": "monthly",
+        "cost": 3500
+      },
+      "ratingsAverage": 4.9,
+      "completedGigsCount": 28,
+      "responseTime": "Within 10 minutes",
+      "emergencyContact": {
+        "name": "Uche Nnaji",
+        "phone": "+2348031112222",
+        "relationship": "Brother"
+      }
+    },
+    {
+      "id": "prov_tunde",
+      "email": "tunde@deur.ng",
+      "name": "Tunde Bakare",
+      "userType": "provider_individual",
+      "phoneMasked": "+234 815 *** **45",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200",
+      "bio": "Talented UI/UX designer and brand identity specialist. I help Nigerian startups build elite mobile-first products and stunning websites.",
+      "location": "Yaba, Lagos",
+      "isVerified": true,
+      "verificationBadge": true,
+      "category": "Skilled Professional",
+      "subcategory": "Graphic Designer",
+      "skills": ["Figma", "Brand Identity", "Motion Graphics", "Web Design"],
+      "portfolio": [
+        {
+          "id": "port_td1",
+          "imageUrl": "https://images.unsplash.com/photo-1561070791-26c113006238?q=80&w=400",
+          "title": "Fintech App UI Design",
+          "description": "High-fidelity mockups for a Nigerian payment startup",
+          "watermarked": true
+        },
+        {
+          "id": "port_td2",
+          "imageUrl": "https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=400",
+          "title": "Deur Logo Variant",
+          "description": "Alternate concept badges for modern web portals",
+          "watermarked": true
+        }
+      ],
+      "subscription": {
+        "tier": "basic",
+        "startDate": "2026-06-12",
+        "expiryDate": "2026-07-12",
+        "status": "active",
+        "hasPromo": false,
+        "paidOnboardingFee": true,
+        "billingCycle": "monthly",
+        "cost": 1500
+      },
+      "ratingsAverage": 4.7,
+      "completedGigsCount": 12,
+      "responseTime": "Within 1 hour",
+      "emergencyContact": {
+        "name": "Ayo Bakare",
+        "phone": "+2348123456789",
+        "relationship": "Father"
+      }
+    },
+    {
+      "id": "prov_emeka",
+      "email": "emeka@deur.ng",
+      "name": "Emeka Okafor",
+      "userType": "provider_individual",
+      "phoneMasked": "+234 905 *** **99",
+      "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200",
+      "bio": "Quick and reliable market runner, personal shopper, and admin assistant. I know Lagos markets inside out (Balogun, Mile 12, Computer Village). Let me handle your errands securely.",
+      "location": "Ikeja, Lagos",
+      "isVerified": true,
+      "verificationBadge": true,
+      "category": "Task & Errand",
+      "subcategory": "Errand Handler",
+      "skills": ["Price Analysis", "Bulk Grocery Purchasing", "Fast Logistics", "Surulere Expert"],
+      "portfolio": [],
+      "subscription": {
+        "tier": "basic",
+        "startDate": "2026-05-30",
+        "expiryDate": "2026-06-30",
+        "status": "active",
+        "hasPromo": false,
+        "paidOnboardingFee": true,
+        "billingCycle": "monthly",
+        "cost": 1500
+      },
+      "ratingsAverage": 4.5,
+      "completedGigsCount": 19,
+      "responseTime": "Within 30 minutes",
+      "emergencyContact": {
+        "name": "Grace Okafor",
+        "phone": "+2349053332211",
+        "relationship": "Wife"
+      }
+    },
+    {
+      "id": "prov_lagos_ushers",
+      "email": "info@lagoselite.com",
+      "name": "Lagos Elite Ushering Agency",
+      "userType": "provider_company",
+      "companyName": "Lagos Elite Ushering Agency Ltd",
+      "cacNumber": "RC-1849204",
+      "teamSize": 15,
+      "teamList": [
+        {"name": "Adeola Shonibare", "role": "Lead Usher coordinator", "verified": true},
+        {"name": "Blessing Peters", "role": "Corporate Protocol Hostess", "verified": true},
+        {"name": "Damilola Adebayo", "role": "VVIP Usher", "verified": true},
+        {"name": "Zainab Musa", "role": "Corporate Protocol Usher", "verified": true},
+        {"name": "Michael Harrison", "role": "Event Security Steward", "verified": true}
+      ],
+      "phoneMasked": "+234 140 *** **10",
+      "avatarUrl": "https://images.unsplash.com/photo-1556740758-90de374c12ad?q=80&w=200",
+      "bio": "CAC-registered leading premium event ushering company in Lagos. We provide extremely beautiful, highly articulate protocol personnel and marshals for corporate galas, private soirées, and major exhibitions.",
+      "location": "Lekki, Lagos",
+      "isVerified": true,
+      "verificationBadge": true,
+      "category": "Event Staffing",
+      "subcategory": "Event Staffing",
+      "skills": ["Crowd Management", "VVIP Guest Protocol", "Exhibition Registration", "Bilingual Ushers"],
+      "portfolio": [
+        {
+          "id": "port_el1",
+          "imageUrl": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=400",
+          "title": "International Energy Summit Protocol",
+          "description": "Steward and usher team of 12 for high-profile foreign delegates",
+          "watermarked": true
+        }
+      ],
+      "subscription": {
+        "tier": "premium",
+        "startDate": "2026-06-01",
+        "expiryDate": "2026-07-01",
+        "status": "active",
+        "hasPromo": false,
+        "paidOnboardingFee": true,
+        "billingCycle": "monthly",
+        "cost": 3500
+      },
+      "ratingsAverage": 4.9,
+      "completedGigsCount": 42,
+      "responseTime": "Within 5 minutes"
+    }
+  ],
+  "gigs": [
+    {
+      "id": "gig_001",
+      "title": "Premium Corporate Master of Ceremony Needed for Tech Gala",
+      "description": "We require a dynamic, sophisticated MC to host our annual Lagos Biotech Summit Gala Dinner. The event will take place physically at Civic Centre, Victoria Island. Must lock in the audience, direct protocol, and speak highly articulate English. Substantial experience with tech audiences requested.",
+      "category": "Event Staffing",
+      "subcategory": "MC/Host",
+      "location": "Victoria Island, Lagos",
+      "isRemote": false,
+      "budget": 150000,
+      "clientId": "client_demo",
+      "clientName": "Funto Alade",
+      "clientAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200",
+      "createdAt": "2026-06-13T10:00:00Z",
+      "status": "open",
+      "datetimeNeeded": "2026-06-28T18:00:00Z",
+      "commissionPercent": 10,
+      "safetyConfirmed": {
+        "client": false,
+        "provider": false
+      },
+      "applications": [
+        {
+          "id": "app_001",
+          "gigId": "gig_001",
+          "providerId": "prov_chioma",
+          "providerName": "Chioma Nnaji",
+          "providerAvatar": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?q=80&w=200",
+          "providerRating": 4.9,
+          "providerBadge": true,
+          "bidAmount": 145000,
+          "coverLetter": "Hello Funto! I have hosted 4 distinct high-profile tech galas in Lagos. I am fully available on June 28th and would love to bring energy and flawless execution to your Biotech Gala. I will abide fully by the Deur safety rules.",
+          "status": "pending",
+          "createdAt": "2026-06-13T11:15:00Z"
+        }
+      ]
+    },
+    {
+      "id": "gig_002",
+      "title": "Brand Identity Design & Pitch Deck Styling",
+      "description": "Looking for an elite graphic designer to craft our pitch deck, brand guidelines, and app styling concepts. We need high-quality Figma components quickly. This position is completely remote.",
+      "category": "Skilled Professional",
+      "subcategory": "Graphic Designer",
+      "location": "Remote",
+      "isRemote": true,
+      "budget": 95000,
+      "clientId": "client_demo",
+      "clientName": "Funto Alade",
+      "clientAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200",
+      "createdAt": "2026-06-14T09:00:00Z",
+      "status": "open",
+      "datetimeNeeded": "2026-06-25T12:00:00Z",
+      "commissionPercent": 15,
+      "safetyConfirmed": {
+        "client": true,
+        "provider": true
+      },
+      "applications": [
+        {
+          "id": "app_002",
+          "gigId": "gig_002",
+          "providerId": "prov_tunde",
+          "providerName": "Tunde Bakare",
+          "providerAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200",
+          "providerRating": 4.7,
+          "providerBadge": true,
+          "bidAmount": 90000,
+          "coverLetter": "Hi, I specialize in startup pitch decks and UI layouts. I built Deur components in the past. Will deliver high-fidelity layouts in Figma inside 5 days.",
+          "status": "pending",
+          "createdAt": "2026-06-14T09:45:00Z"
+        }
+      ]
+    }
+  ],
+  "chats": [
+    {
+      "id": "chat_001",
+      "gigId": "gig_001",
+      "gigTitle": "Premium Corporate Master of Ceremony Needed for Tech Gala",
+      "clientId": "client_demo",
+      "clientName": "Funto Alade",
+      "providerId": "prov_chioma",
+      "providerName": "Chioma Nnaji",
+      "lastMessageAt": "2026-06-14T14:30:00Z",
+      "messages": [
+        {
+          "id": "msg_001",
+          "chatId": "chat_001",
+          "senderId": "client_demo",
+          "senderName": "Funto Alade",
+          "text": "Hi Chioma, I saw your application for the Biotech Summit event. Your profile is exceptionally well put together!",
+          "timestamp": "2026-06-14T14:00:00Z",
+          "flagged": false
+        },
+        {
+          "id": "msg_002",
+          "chatId": "chat_001",
+          "senderId": "prov_chioma",
+          "senderName": "Chioma Nnaji",
+          "text": "Thank you, Funto! Yes, I am absolutely thrilled about the opportunity. I have prepared several corporate outlines suitable for tech delegates.",
+          "timestamp": "2026-06-14T14:05:00Z",
+          "flagged": false
+        },
+        {
+          "id": "msg_003",
+          "chatId": "chat_001",
+          "senderId": "prov_chioma",
+          "senderName": "Chioma Nnaji",
+          "text": "Let me know when the date approaches. Since it is physical, we will carry out the Pre-Gig Safety Confirmation checklist right in the Deur panel to lock down the escrow deposit safely.",
+          "timestamp": "2026-06-14T14:12:00Z",
+          "flagged": false
+        }
+      ]
+    }
+  ],
+  "escrowTransactions": [
+    {
+      "id": "escrow_001",
+      "gigId": "gig_002",
+      "gigTitle": "Brand Identity Design & Pitch Deck Styling",
+      "clientId": "client_demo",
+      "providerId": "prov_tunde",
+      "amount": 95000,
+      "commission": 14250,
+      "providerPayout": 80750,
+      "status": "held",
+      "dateFunded": "2026-06-14T12:00:00Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev_001",
+      "gigId": "gig_past_01",
+      "gigTitle": "Annual General Meeting Hosting",
+      "reviewerId": "client_demo",
+      "reviewerName": "Funto Alade",
+      "revieweeId": "prov_chioma",
+      "rating": 5,
+      "comment": "Outstanding MC! She held the audience captive for 4 hours straight. Prompt, perfectly verified, safe protocol.",
+      "createdAt": "2026-05-15T18:00:00Z"
+    },
+    {
+      "id": "rev_002",
+      "gigId": "gig_past_02",
+      "gigTitle": "Logo Refinement Work",
+      "reviewerId": "client_demo",
+      "reviewerName": "Funto Alade",
+      "revieweeId": "prov_tunde",
+      "rating": 5,
+      "comment": "Tunde delivered excellent brand marks. Fast response time, watermarked correctly for safety. Recommended!",
+      "createdAt": "2026-05-20T12:00:00Z"
+    }
+  ],
+  "verifications": [
+    {
+      "id": "ver_001",
+      "userId": "prov_chioma",
+      "userName": "Chioma Nnaji",
+      "idType": "NIN",
+      "idNumber": "32049182310",
+      "documentUrl": "nin_card_chioma.png",
+      "submittedAt": "2026-05-28T09:00:00Z",
+      "status": "verified"
+    }
+  ],
+  "stats": {
+    "activeUsersCount": 164,
+    "gigsCompletedCount": 98,
+    "totalSubscribers": 54,
+    "totalRevenue": 248000,
+    "escrowHeld": 95000,
+    "commissionsEarned": 42500,
+    "unresolvedDisputes": 0
+  }
+}
